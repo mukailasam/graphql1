@@ -29,17 +29,27 @@ after starting the server start making use of the Queries
 Note: There are 5 posts with the id(7, 8, 9, 10, 11)already created and they are stored in the sqlite database, but you can add yours by making use of create post query. besides creating post you can do all other stuff too, like reading a single post, all posts, updating a post and deleting a post. You can do all these stuff using the queries below
 
 ### Queries
-Create a post
+Create a post\
+`
 http://127.0.0.1:8080/graphql?query=mutation+_{create(title:"First Post",body:"Hello, word"){title,body}}
+`
 
-Read all posts
+Read all posts\
+`
 http://127.0.0.1:8080/graphql?query={posts{title,body}}
+`
 
-Read a Post
+Read a Post\
+`
 http://127.0.0.1:8080/graphql?query={post(id:11){title,body}}
+`
 
-Update a post
+Update a post\
+`
 http://127.0.0.1:8080/graphql?query=mutation+_{update(id:11,title:"First Post",body:"Hey buddy"){title,body}}
+`
 
-Delete a post
+Delete a post\
+`
 http://127.0.0.1:8080/graphql?query=mutation+_{delete(id:11){title,body}}
+`
