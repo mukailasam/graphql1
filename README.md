@@ -17,11 +17,11 @@ Mutations: Used to modify data on the server. Similar to queries, but for operat
 
 
 ### Setup
-+ clone the repository\
++ Clone the repository\
 `git clone https://github.com/ftsog/graphql1`
-+ change directory into the program directory\
++ Change directory into the program directory\
 `cd graphql1`
-+ start the API server\
++ Start the API server\
 `go run .`
 
 after starting the server start making use of the Queries
