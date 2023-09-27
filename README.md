@@ -18,7 +18,7 @@ Mutations: Used to modify data on the server. Similar to queries, but for operat
 
 ### Setup
 + Clone the repository\
-`git clone https://github.com/ftsog/graphql1`
+`git clone https://github.com/mukailasam/graphql1`
 + Change directory into the program directory\
 `cd graphql1`
 + Start the API server\
